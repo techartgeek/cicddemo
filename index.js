@@ -5,4 +5,4 @@ app.get('/', (req, res) => res.send("<h2 style=\"text-align:center;\">Hello Worl
 
 app.get('*', (req, res) => res.redirect('/'));
 
-pp.listen(3000, (err) => console.log('app running on port 3000'));
+app.listen(3000, (err) => console.log('app running on port 3000'));
