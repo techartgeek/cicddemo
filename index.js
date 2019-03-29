@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => res.send("Hello World!"));
+app.get('/', (req, res) => res.send("<h2 style=\"text-align:center;\">Hello World!</h2>"));
 
 app.get('*', (req, res) => res.redirect('/'));
 
